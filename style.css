@@ -346,3 +346,58 @@ footer {
 .btn-pago-tipo:hover {
     background: #342574;
 }
+#detalle-producto img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 22px auto;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #4C3C8B;
+}
+#producto-detalle-contenido {
+    text-align: center;
+    color: #444;
+}
+#producto-detalle-contenido h3 {
+    color: #4C3C8B;
+    font-size: 1.35em;
+    margin: 8px 0 0 0;
+}
+#producto-detalle-contenido .clave {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 12px;
+}
+#producto-detalle-contenido .desc {
+    margin: 10px 0 18px 0;
+}
+#producto-detalle-contenido .precio {
+    font-size: 1.35em;
+    color: #444;
+    font-weight: bold;
+}
+.menu-usuario {
+    background: #b4e6ff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #8888;
+    min-width: 160px;
+    z-index: 200;
+    top: 70px; /* ajusta según tu header */
+    right: 40px; /* ajusta según tu header */
+    padding: 8px 0;
+    font-size: 12px;
+}
+.menu-item {
+    padding: 16px 18px;
+    font-size: 2em;
+    color: #555;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.menu-item:last-child { border-bottom: none; }
+.menu-item:hover {
+    background: #4C3C8B;
+    color: #fff;
+}
